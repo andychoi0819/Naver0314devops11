@@ -23,3 +23,5 @@ git commit -m "메세지"
 로칼영역에서 원격으로 보내기
 git push origin main
 (git push origin +main : 강제로 push하기)
+
+git의 내용 그대로 가져오기 $git clone https 주소
