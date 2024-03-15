@@ -32,6 +32,7 @@ public class Ex3 {
 		System.out.printf("평균:%10.2f점\n", avg);
 		System.out.printf("평균:%-10.2f점\n", avg);
 
+		
 	}
 
 }
