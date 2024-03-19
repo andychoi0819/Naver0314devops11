@@ -25,16 +25,6 @@ public class Ex14_Formunje {
 		int n1,n2,n3,n4,n5;
 		int count=0;
 		int sum=0;
-		//		System.out.printf("점수는? ");
-		//		n1=sc.nextInt();
-		//		System.out.printf("점수는? ");
-		//		n2=sc.nextInt();
-		//		System.out.printf("점수는? ");
-		//		n3=sc.nextInt();
-		//		System.out.printf("점수는? ");
-		//		n4=sc.nextInt();
-		//		System.out.printf("점수는? ");
-		//		n5=sc.nextInt();
 
 		for(int i=1; i<=5; i++) {
 			System.out.printf("점수는? ");
@@ -43,8 +33,9 @@ public class Ex14_Formunje {
 			if(n1>100||n1<1) {
 				continue;
 			}
-			sum=sum+n1;
-			count=count+1;
+			sum+=n1;
+			count++;
+
 
 		}
 		System.out.println("입력한 점수 갯수: "+count);
