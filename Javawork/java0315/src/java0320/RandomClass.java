@@ -9,13 +9,13 @@ public class RandomClass {
 		System.out.printf("번호 입력: ");
 		int n1,n2,n3,n4,n5,n6,n7;
 		Scanner sc= new Scanner(System.in);
-		n1=sc.nextInt();
-		n2=sc.nextInt();
-		n3=sc.nextInt();
-		n4=sc.nextInt();
-		n5=sc.nextInt();
-		n6=sc.nextInt();
-		n7=sc.nextInt();
+		n1=sc.nextInt()+64;
+		n2=sc.nextInt()+64;
+		n3=sc.nextInt()+64;
+		n4=sc.nextInt()+64;
+		n5=sc.nextInt()+64;
+		n6=sc.nextInt()+64;
+		n7=sc.nextInt()+64;
 		
 		System.out.printf("%2c,%2c,%2c,%2c,%2c,%2c,%2c",
 		(char)n1,(char)n2,(char)n3,(char)n4,(char)n5,(char)n6,(char)n7);
